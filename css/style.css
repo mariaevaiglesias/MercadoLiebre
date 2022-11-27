@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #fbbc02;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 250px;
+}
+
+.products-header{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+.header-nav{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+.opiniones{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+.productos{
+    margin: 40px;
+}
+
+.producto{
+    width: 200px;
+}
+
+.productos h2{
+    text-align: left;
+}
+
+.contenedor-productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedor-productos div{
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contenedor-productos div a{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.productos-2{
+    margin: 40px;
+}
+
+.producto-2{
+    width: 200px;
+}
+
+.productos-2 h2{
+    text-align: left;
+}
+
+.contenedor-productos-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedor-productos-2 div{
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contenedor-productos-2 div a{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.contenedor-form{
+    background-color: #fbbc02;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-form div img{
+    width: 300px;
+}
+
+form{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav ul{
+    list-style: none;
+}
+
+.footer-nav h2{
+    margin-left: 5%;
+}
+
+.col-4{
+  border-right:solid 1px;
+  font-size: 15px;
+}
+
+.col-4 h2{
+    font-size: 20px;
+}
